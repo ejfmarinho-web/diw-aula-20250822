@@ -9,14 +9,29 @@
             font-size: 16px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
+        html{
+            border: .2rem solid aqua;
+            padding: 0rem;
+        margin:0rem;
+        }
+        body{
+            border: .2rem solid green;
+            display:flex;
+            flex-direction:column;
+            height:100vh;
+        }
         header{
             display: flex;
             border: .2rem solid red;
-            background-color: rgb(225, 216, 216);
+            background-color: rgb(60, 36, 214);
             padding:.6rem;
             align-items:center;
         }
         #logo{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            align-content:center;
             border: .2rem solid blue;
             border-radius: 100%;
             width: 3rem;
@@ -30,17 +45,41 @@
         
         }
         #titulo{
-            font: size 2rem;
+            font-size:2rem;
             font-weight:bold;
             color:aqua;
 
+        }
+        section{
+            display:flex;
+            border: .2rem solid brown;
+            flex:1;
+            
+        }
+        Nav{
+            border: .2rem solid plum;
+            width: 15rem;
+            background-color: #eee;
+        }
+        main{
+            border:.2rem solid purple;
+            flex:1;
+        }
+        footer{ 
+            border:.2rem solid yellow
+            
         }
     </style>
 </head>
 <body>
     <header>
         <div id="logo">E</div>
-        <h1 id="titulo">meu site</h1>
+        <h1 id="titulo">Meu Site</h1>
     </header>
+    <section>corpo do site</section>
+    <nav>menu lateral</nav>
+    <main>corpor principal</main>
+
+    <footer>&copy; Els_jfm👌</footer>
 </body>
 </html>
